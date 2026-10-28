@@ -23,3 +23,7 @@ export async function getPopularMovies() {
 export async function searchMovies(query) {
   return request(`/search/movie?query=${encodeURIComponent(query)}`);
 }
+
+export async function getMovieDetails(movieId) {
+  return request(`/movie/${encodeURIComponent(movieId)}`);
+}

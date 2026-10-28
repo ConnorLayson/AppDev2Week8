@@ -44,6 +44,7 @@ function Header({ setSearchResults }) {
         <Link to="/" className="app-title" onClick={handleHomeClick}>MovieShelf</Link>
         <nav className="nav-links">
           <Link to="/" className="nav-link" onClick={handleHomeClick}>Home</Link>
+          <Link to="/watchlist" className="nav-link">Watchlists</Link>
           <Link to="/favorites" className="nav-link">Favorites</Link>
         </nav>
         <form className="search-container" onSubmit={handleSearch}>
