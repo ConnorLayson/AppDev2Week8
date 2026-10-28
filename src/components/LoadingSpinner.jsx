@@ -1,0 +1,10 @@
+function LoadingSpinner() {
+  return (
+    <div className="loading-state" role="status" aria-live="polite">
+      <div className="spinner" aria-hidden="true" />
+      <p>Loading movies...</p>
+    </div>
+  );
+}
+
+export default LoadingSpinner;
